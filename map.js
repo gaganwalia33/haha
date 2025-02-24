@@ -1,4 +1,4 @@
-// Initialize the map
+// Initialize the map 1
 const map = L.map('map').setView([20, 0], 2); // Center of the world
 
 // Set up the tile layer
