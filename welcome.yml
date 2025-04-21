@@ -1,11 +1,11 @@
 name: Welcome Workflow
 
-on: [PUSH]
+on: [push]
 
 jobs:
-   say-hello:
-     runs-on: ubuntu-latest
+  say-hello:
+    runs-on: ubuntu-latest
 
-     steps: 
-          name: Say hello
-          run: echo "Hello from GitHub Actions!"
+    steps:
+      - name: Say hello
+        run: echo "🎉 Hello from GitHub Actions!"
